@@ -1,0 +1,122 @@
+{
+	"lighterVersion":"0.1",
+	"info":
+	{
+		"type":"onboardingCarousel",
+		"version":"1.0",
+		"description":"Карусель для отображения приветственного экрана"
+	},
+	"canSkipEnabled":true,
+	"skipText":
+	{
+		"font":"Roboto",
+		"content":"Пропустить",
+		"fontSize":"15",
+		"color":"#FFFFFFFF"
+	},
+	
+	"application":
+	{
+		"name":"Lazy trainer",
+		"iconFilename":"avatar1.png"
+	},
+	"onboardingScreens":
+	[
+		{
+			"order":0,
+			"topColor": "#FF00FFFF",
+			"bottomColor": "#FFFFFFFF",
+			"image":
+			{
+				"filename":"avatar1.png",
+				"isOpacity":false
+			},
+			"headline":
+			{
+				"font":"Roboto",
+				"content":"Добро пожаловать в LazyTrainer",
+				"fontSize":"30",
+				"color":"#FFFFFFFF"
+			},
+			"subhead":
+			{
+				"font":"Roboto",
+				"content":"Самостоятельные тренировки",
+				"fontSize":"16",
+				"color":"#FFFFFFFF"
+			}
+		},
+		{
+			"order":1,
+			"topColor": "#FF00FFFF",
+			"bottomColor": "#FFFFFFFF",
+			"image":
+			{
+				"filename":"avatar1.png",
+				"isOpacity":false
+			},
+			"headline":
+			{
+				"font":"Roboto",
+				"content":"Вот сейчас захотели - и потренировались",
+				"fontSize":"30",
+				"color":"#FFFFFFFF"
+			},
+			"subhead":
+			{
+				"font":"Roboto",
+				"content":"И не обязательно искать тренера",
+				"fontSize":"16",
+				"color":"#FFFFFFFF"
+			}
+		},
+		{
+			"order":2,
+			"topColor": "#FF00FFFF",
+			"bottomColor": "#FFFFFFFF",
+			"image":
+			{
+				"filename":"avatar1.png",
+				"isOpacity":false
+			},
+			"headline":
+			{
+				"font":"Roboto",
+				"content":"Просто радуйся, что можешь",
+				"fontSize":"30",
+				"color":"#FFFFFFFF"
+			},
+			"subhead":
+			{
+				"font":"Roboto",
+				"content":"Поднял руку, ногу? Ну и красавчек, всё же не пивко на диване пьешь!",
+				"fontSize":"16",
+				"color":"#FFFFFFFF"
+			}
+		},
+		{
+			"order":3,
+			"topColor": "#FF00FFFF",
+			"bottomColor": "#FFFFFFFF",
+			"image":
+			{
+				"filename":"avatar1.png",
+				"isOpacity":false
+			},
+			"headline":
+			{
+				"font":"Roboto",
+				"content":"Как говориться...",
+				"fontSize":"30",
+				"color":"#FFFFFFFF"
+			},
+			"subhead":
+			{
+				"font":"Roboto",
+				"content":"В критической ситуации ты не поднимешься до уровня своих ожиданий, а упадёшь до уровня своей подготовки",
+				"fontSize":"16",
+				"color":"#FFFFFFFF"
+			}
+		}
+	]
+}
